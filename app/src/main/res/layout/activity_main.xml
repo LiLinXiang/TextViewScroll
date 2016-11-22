@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="30dp">
+
+    <com.example.lincoln.textviewscroll.TextViewScroll
+        android:id="@+id/tv_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#25d9e2"
+        android:text="Hello World!哈哈哈哈哈哈嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿\nHello World!哈哈哈哈哈哈嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿\nHello World!哈哈哈哈哈哈嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿"/>
+
+    <EditText
+        android:id="@+id/et_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="速度"
+        android:inputType="number"
+        android:text="10"/>
+
+    <Button
+        android:id="@+id/btn_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置速度"/>
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="内容"/>
+
+    <Button
+        android:id="@+id/btn_settext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置内容"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/from_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="右到左"/>
+
+        <Button
+            android:id="@+id/from_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="左到右"/>
+
+        <Button
+            android:id="@+id/from_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上到下"/>
+
+        <Button
+            android:id="@+id/from_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下到上"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始"/>
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂停"/>
+
+</LinearLayout>
